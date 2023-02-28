@@ -12,7 +12,11 @@
           {"source": "by_resource/red_subresource_loading.css"},
           {"source": "by_resource/red_subresource_loading.png"},
           {"source": "by_resource/fetch_result_1_subresource_loading.json"},
-          {"source": "by_resource/xhr_result_1_subresource_loading.json"}
+          {"source": "by_resource/xhr_result_1_subresource_loading.json"},
+          {"source": "by_resource/script_1.js",
+           "uuid": "298bedfd-91ba-4030-bc35-8040c6536d5d"},
+          {"source": "by_resource/script_2.js",
+           "uuid": "a94ddaa3-6042-44db-9b8f-cb77b6b72999"}
         ]
       },
       {

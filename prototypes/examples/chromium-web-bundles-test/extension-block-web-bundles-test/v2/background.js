@@ -25,6 +25,8 @@ var filters = [
   {urls: ['*://*/*fetch_result_2_unsigned_bundle*'], types: ['xmlhttprequest']},
   {urls: ['*://*/*xhr_result_2_unsigned_bundle*'], types: ['xmlhttprequest']},
   {urls: ['*://*/*blocked_bundle.wbn']}, // should be {urls: ['*://*/*blocked_bundle*'], types: ['webbundle']} (ref. https://crbug.com/41031645)
+  {urls: ['uuid-in-package:298bedfd-91ba-4030-bc35-8040c6536d5d'], types: ['sub_frame']},
+  {urls: ['uuid-in-package:a94ddaa3-6042-44db-9b8f-cb77b6b72999'], types: ['script']},
 ];
 
 filters.forEach(filter => {
